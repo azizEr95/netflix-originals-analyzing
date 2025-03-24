@@ -34,6 +34,7 @@ Es umfasst 3 Teile:
 - `netflix-originals-analysis/`
     - `netflix-originals-analyzing.ipynb`     - Jupyter Notebook mit Code & Analysen
     - `netflix-originals-analyzing.html`      - Code und Analysen als HTML
+    - `netflix-originals-analyzing.py`        - Python Skript 
     - `netflix_series.csv`                    - Rohdaten der Serien
     - `netflix_movies.csv`                    - Rohdaten der Filme
     - `netflix_series_clean.csv`              - Bereinigte Daten der Serien
@@ -52,15 +53,20 @@ Es umfasst 3 Teile:
 
 1. **Python herunterladen** 
 
-2. **Jupyter Notebook herunterladen**
-```bash
-pip install notebook
-```
-
-3. **Erforderlichen Pakete herunterladen**
+2. **Erforderlichen Pakete herunterladen**
 ```bash
 pip install pandas numpy matplotlib
 ```
 
+3. **Jupyter Notebook herunterladen**
+```bash
+pip install notebook
+```
+
+4. **oder man öffnet es über VSCode** 
+und startet im Terminal den Befehl
+```bash
+python netflix-originals-analyzing.py
+```
 
 Alternativ kannst du dir den Code und die Analysen über den File ```netflix-originals-analyzing.html``` anschauen 

@@ -51,14 +51,11 @@ Es umfasst 3 Teile:
     1. Python herunterladen 
 
     2. Jupyter Notebook herunterladen
-    ```bash
+
     pip install notebook
-    ```
 
     3. Erforderlichen Pakete herunterladen:
 
-    ```bash
     pip install pandas numpy matplotlib
-    ```
 
     Alternativ kannst du dir den Code und die Analysen über den File netflix-originals-analyzing.html anschauen 

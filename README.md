@@ -19,6 +19,7 @@ Dieses Projekt analysiert die Netflix-Originals-Serien und -Filme anhand von öf
 
 
 Es umfasst 3 Teile: 
+
     1. Web-Scraping der Daten, 
     2. die Bereinigung von Daten
     3. Analysen bzw. Einsichten zur Anzahl der Veröffentlichungen, Genres, Laufzeiten und Verlängerungen.

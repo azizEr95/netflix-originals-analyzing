@@ -20,9 +20,9 @@ Dieses Projekt analysiert die Netflix-Originals-Serien und -Filme anhand von öf
 
 Es umfasst 3 Teile: 
 
-    1. Web-Scraping der Daten, 
-    2. die Bereinigung von Daten
-    3. Analysen bzw. Einsichten zur Anzahl der Veröffentlichungen, Genres, Laufzeiten und Verlängerungen.
+1. Web-Scraping der Daten
+2. die Bereinigung von Daten
+3. Analysen bzw. Einsichten zur Anzahl der Veröffentlichungen, Genres, Laufzeiten und Verlängerungen
         3.1 Einsicht: In welchen Genres wurden die meisten Filme und Serien produziert?
         3.2 Einsicht: Wie viele Originals wurden pro Jahr veröffentlicht?
         3.3 Einsicht: Wie ist die durchschnittliche Laufzeit pro Original Kategorie?
@@ -31,32 +31,36 @@ Es umfasst 3 Teile:
 
 ## Projektstruktur
 
-    - `netflix-originals-analysis/
-        - netflix-originals-analyzing.ipynb     - Jupyter Notebook mit Code & Analysen
-        - netflix-originals-analyzing.html      - Code und Analysen als HTML
-        - netflix_series.csv                    - Rohdaten der Serien
-        - netflix_movies.csv                    - Rohdaten der Filme
-        - netflix_series_clean.csv              - Bereinigte Daten der Serien
-        - netflix_movies_clean.csv              - Bereinigte Daten der Filme
+- `netflix-originals-analysis/`
+    - `netflix-originals-analyzing.ipynb`     - Jupyter Notebook mit Code & Analysen
+    - `netflix-originals-analyzing.html`      - Code und Analysen als HTML
+    - `netflix_series.csv`                    - Rohdaten der Serien
+    - `netflix_movies.csv`                    - Rohdaten der Filme
+    - `netflix_series_clean.csv`              - Bereinigte Daten der Serien
+    - `netflix_movies_clean.csv`              - Bereinigte Daten der Filme
 
-## Technologien
-    - Python - Programmiersprache
-    - Pandas - Webscraping der Wikipedia-Seite (pandas.read_html) und zur Datenverarbeitung und Bereinigung
-    - NumPy - Datenmanipulation
-    - Regular Expressions - Bereinigung von Texten
-    - Matplotlib - Visualisierung der Analysen mit Diagrammen
-    - Jupyter Notebook - Interaktive Umgebung
+## Technologien und Bibliotheken
+- **Python** - Programmiersprache
+- **Pandas** - Webscraping der Wikipedia-Seite (pandas.read_html) und zur Datenverarbeitung und Bereinigung
+- **NumPy** - Datenmanipulation
+- **re** - Bereinigung von Texten
+- **Matplotlib** - Visualisierung der Analysen mit Diagrammen
+- **Jupyter Notebook** - Interaktive Umgebung
 
 
 ### Voraussetzung
-    1. Python herunterladen 
 
-    2. Jupyter Notebook herunterladen
+1. **Python herunterladen** 
 
-    pip install notebook
+2. **Jupyter Notebook herunterladen**
+```bash
+pip install notebook
+```
 
-    3. Erforderlichen Pakete herunterladen:
+3. **Erforderlichen Pakete herunterladen**
+```bash
+pip install pandas numpy matplotlib
+```
 
-    pip install pandas numpy matplotlib
 
-    Alternativ kannst du dir den Code und die Analysen über den File netflix-originals-analyzing.html anschauen 
+Alternativ kannst du dir den Code und die Analysen über den File ```bash netflix-originals-analyzing.html``` anschauen 

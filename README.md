@@ -63,4 +63,4 @@ pip install pandas numpy matplotlib
 ```
 
 
-Alternativ kannst du dir den Code und die Analysen über den File ```bash netflix-originals-analyzing.html``` anschauen 
+Alternativ kannst du dir den Code und die Analysen über den File ```netflix-originals-analyzing.html``` anschauen 

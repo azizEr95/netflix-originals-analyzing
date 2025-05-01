@@ -69,7 +69,7 @@ und startet im Terminal den Befehl
 python netflix-originals-analyzing.py
 ```
 
-### Ergebnisse der Analyen
+### Ergebnisse der Analysen
 
 #### 1.Einsicht: In welchen Genres wurden die meisten Filme und Serien produziert?
 

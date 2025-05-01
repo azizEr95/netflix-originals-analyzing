@@ -69,4 +69,23 @@ und startet im Terminal den Befehl
 python netflix-originals-analyzing.py
 ```
 
-Alternativ kannst du dir den Code und die Analysen über den File ```netflix-originals-analyzing.html``` anschauen 
+### Ergebnisse der Analyen
+
+#### 1.Einsicht: In welchen Genres wurden die meisten Filme und Serien produziert?
+
+<img width="818" alt="erste_Einsicht" src="https://github.com/user-attachments/assets/1ef9a4e5-6b33-4dd2-8b1f-a85b3de5489a" />
+
+
+#### 2.Einsicht: Wie viele Netflix-Originals wurden bis zum Jahr 2024 veröffentlicht?
+
+<img width="818" alt="zweite_Einsicht" src="https://github.com/user-attachments/assets/72b1814f-fba2-499c-a32f-525159bc0d95" />
+
+
+#### 3.Einsicht: Wie ist die durchschnittliche Laufzeit von Netflix-Originals Filmen und Serien?
+
+<img width="818" alt="dritte_Einsicht" src="https://github.com/user-attachments/assets/d8cf4f2a-9c73-4837-825a-33efe56a3660" />
+
+
+#### 4.Einsicht: Wie viele Originals Serien wurden Renewed für 2025?
+
+<img width="818" alt="vierte_Einsicht" src="https://github.com/user-attachments/assets/bfc3d2e4-5f69-4107-bfc2-fa9145ba8a60" />
